@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 8px solid #CF9455;
+}
+
+.navbar a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 42%;
+}
+
+.navbar-toggler {
+    background-color: #CF9455;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.holder {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 90vh;
+}
+
+.holder::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide the images by default */
+
+.slides {
+    display: none;
+    width: 100%;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+.slides img {
+    /* height: 90vh; */
+    width: 100%;
+}
+
+.prev svg,
+.next svg {
+    fill: white;
+}
+
+.nextContainer,
+.prevContainer {
+    width: 35px;
+    height: 35px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.thumbnails-row {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* Six columns side by side */
+
+.column {
+    /* float: left; */
+    width: 12%;
+    margin: 0 0.5rem;
+}
+
+
+/* Add a transparency effect for thumbnail images */
+
+.slide-thumbnail {
+    width: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.active,
+.slide-thumbnail:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 768px) {
+    .prevContainer,
+    .nextContainer {
+        display: none;
+        visibility: hidden;
+    }
+    .holder {
+        height: 60vh;
+    }
+    .thumbnails-row {
+        position: relative;
+        bottom: 80px;
+    }
+}
+
+
+/* ========================================== Section 2 =================================== */
+
+.section2 .pic1,
+.section2 .pic2,
+.section2 .pic3 {
+    background: linear-gradient(to bottom, rgba(19, 19, 19, 0.671), rgba(0, 0, 0, 0.73)), url('../images/pic1.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.section2 h2 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.section2 h3 {
+    font-size: 1rem;
+}
+
+.section2 button {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    border-radius: 0;
+    padding: 5px 20px;
+}
+
+.section2 .pic1 button {
+    background-color: #FF6C2C;
+}
+
+.section2 .pic2 button {
+    background-color: #945B9F;
+}
+
+.section2 .pic3 button {
+    background-color: #707070;
+}
+
+
+/* ================================== Latest News =============================== */
+
+.news1 {
+    background-color: #707070;
+}
+
+.news svg {
+    width: 15px;
+    height: 15px;
+}

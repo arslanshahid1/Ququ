@@ -2,14 +2,172 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Home</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md pt-md-5">
+        <div class="container d-md-none">
+            <a class="nav-link d-md-none pl-0 ml-0" href="#">
+                <img src="images/logo.png" width="80px" alt="">
+            </a>
+            <button class="navbar-toggler navbar-light ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav container align-items-md-end justify-content-md-between">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Become a sponsor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Shaquile</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link logo d-none d-md-block" href="#">
+                        <img src="images/logo.png" width="80px" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Latest News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
 
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container1">
+        <!-- main images -->
+        <div class="holder">
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1505438157249-00e1b44ee34f?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=dfc554074f522ec42818a052152dac21g" alt="" />
+            </div>
+
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1515870672913-a4c298575776?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=aa80486fd3343134706e785c034b339d">
+            </div>
+
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1521651201144-634f700b36ef?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e26ec8c74dc99aff53a60741538cad5f">
+            </div>
+
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=583c2bf56c8006e507e2a9905fc1e54c">
+            </div>
+
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=69093505f999d8170e9a1aab3771c07e">
+            </div>
+
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1485199433301-8b7102e86995?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c7783fe3a697b1a2248450120435cbc3">
+            </div>
+        </div>
+
+        <!-- thumnails in a row -->
+        <div class="thumbnails-row d-flex justify-content-center align-items-center">
+            <div class="prevContainer ">
+                <a class="prev" onclick="plusSlides(-1)">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="column">
+                <img class="slide-thumbnail" src="https://images.unsplash.com/photo-1505438157249-00e1b44ee34f?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=dfc554074f522ec42818a052152dac21g" onclick="currentSlide(1)" alt="Caption One">
+            </div>
+            <div class="column">
+                <img class="slide-thumbnail" src="https://images.unsplash.com/photo-1515870672913-a4c298575776?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=aa80486fd3343134706e785c034b339d" onclick="currentSlide(2)" alt="Caption Two">
+            </div>
+            <div class="column">
+                <img class="slide-thumbnail" src="https://images.unsplash.com/photo-1521651201144-634f700b36ef?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e26ec8c74dc99aff53a60741538cad5f" onclick="currentSlide(3)" alt="Caption Three">
+            </div>
+            <div class="column">
+                <img class="slide-thumbnail" src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=583c2bf56c8006e507e2a9905fc1e54c" onclick="currentSlide(4)" alt="Caption Four">
+            </div>
+            <div class="nextContainer">
+                <a class="next" onclick="plusSlides(1)">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2 container mt-0 mt-sm-5 ">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 mt-2 mt-md-0 d-flex align-items-center justify-content-center text-center">
+                <div class="col-12 pic1 p-3 p-lg-5">
+                    <h2>Boxing with classic</h2>
+                    <h3>Trained achieve your goals</h3>
+                    <button class="btn mt-2">See More</button>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-2 mt-md-0 d-flex align-items-center justify-content-center text-center">
+                <div class="col-12 pic2 p-3 p-lg-5">
+                    <h2>Boxing with classic</h2>
+                    <h3>Trained achieve your goals</h3>
+                    <button class="btn mt-2">See More</button>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-2 mt-md-0 d-flex align-items-center justify-content-center text-center">
+                <div class="col-12 pic3 p-3 p-lg-5">
+                    <h2>Boxing with classic</h2>
+                    <h3>Trained achieve your goals</h3>
+                    <button class="btn mt-2">See More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="news container mt-5">
+        <h2>Latest News</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus cupiditate obcaecati provident est reprehenderit iure totam perferendis accusantium magni.</p>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="col-12 p-3 news1">
+                    <img src="images/pic1.jpg" width="100%" alt="" srcset="">
+                    <h3 class="mt-4">This harvard student ran 70 miles back to college</h3>
+                    <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati harum nobis dignissimos nulla temporibus excepturi accusamus nihil. Provident iusto unde totam sed cumque velit vitae, quas praesentium reprehenderit quaerat vero.</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                            </svg> Long Name Here
+                        </div>
+                        <div class="col-6">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                            </svg> 1h ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- --------------- JS files -------------- -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
