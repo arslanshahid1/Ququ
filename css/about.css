@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000002;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 8px solid #CF9455;
+}
+
+.navbar a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 42%;
+}
+
+.navbar-toggler {
+    background-color: #CF9455;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.hero {
+    background-image: url("../images/about/Group1760.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 150%;
+}
+
+.hero .container {
+    margin-top: -20%;
+}
+
+.hero h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.hero .left {
+    background-color: #686868;
+    color: white;
+    border-top: 8px solid #CF9455;
+    border-bottom: 8px solid #272727;
+    height: 100%;
+}
+
+.hero .right {
+    background: none;
+}
+
+.hero .top {
+    background-color: #686868;
+    color: white;
+    border-top: 8px solid #CF9455;
+    border-bottom: 8px solid #272727;
+}
+
+.hero .bottom {
+    background-color: #686868;
+    color: white;
+    border-top: 8px solid #CF9455;
+    border-bottom: 8px solid #272727;
+}
+
+.black {
+    border-color: black;
+}
+
+.accomplishments p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* --------------------- Footer ----------------------- */
+
+footer {
+    margin-top: 10%;
+    bottom: 0;
+    background-color: #686868;
+    color: white;
+}
+
+footer .number i,
+footer .mail i {
+    color: #CF9455;
+}
+
+footer .socials i {
+    background-color: #CF9455;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+footer .popular a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+footer .quick {
+    color: #bdbdbd;
+}
+
+footer .quick a {
+    color: white;
+}
+
+footer .quick h5 {
+    color: white;
+}
+
+footer .popular button {
+    border: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    border-radius: 0;
+    margin: 2px;
+}
+
+footer .popular button:hover {
+    background-color: #CF9455;
+}
+
+footer .popular button:hover a {
+    color: white;
+}
+
+.footer-nav {
+    background-color: #272727;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-bottom {
+    background-color: #686868;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+@media (max-width: 786px) {
+    .hero .container {
+        margin-top: 0;
+    }
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    footer img {
+        width: 50%;
+    }
+}

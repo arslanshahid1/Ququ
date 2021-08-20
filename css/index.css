@@ -168,7 +168,19 @@ img {
 /* ================================== Latest News =============================== */
 
 .news {
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    padding-top: 15%;
+    background: url('../images/home/Path3765.svg') no-repeat;
+    background-position: -8px 0%;
+    background-size: 545px 1200px;
+    height: 1200px;
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .news {
+        height: auto;
+    }
 }
 
 .news-row {
@@ -205,22 +217,35 @@ img {
     color: #969696;
 }
 
-.news1 {
+.news1,
+.news2,
+.news3 {
     background-color: #272727;
     color: #969696;
     font-weight: 500;
 }
 
-.news1 h3 {
+.news1 h4,
+.news2 h4,
+.news3 h4 {
     color: #CF9455;
     text-transform: capitalize;
+}
+
+.news1,
+.news3 {
+    border-bottom: 10px solid #707070;
+}
+
+.news2 {
+    border-bottom: 10px solid #CF9455;
 }
 
 
 /* ================================== Instagram =============================== */
 
 .instagram {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .instagram h2 {
