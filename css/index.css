@@ -177,12 +177,6 @@ img {
     opacity: 1;
 }
 
-@media (max-width: 992px) {
-    .news {
-        height: auto;
-    }
-}
-
 .news-row {
     margin-top: 5%;
 }
@@ -241,6 +235,12 @@ img {
     border-bottom: 10px solid #CF9455;
 }
 
+@media (max-width: 992px) {
+    .news {
+        height: auto;
+    }
+}
+
 
 /* ================================== Instagram =============================== */
 
@@ -262,16 +262,9 @@ img {
     color: #ffffff;
 }
 
-.insta-container .insta1 {
-    background: url("../images/home/GJP09665.jpg");
-}
-
-.insta-container .insta2 {
-    background: url("../images/home/Shaq-7.jpg");
-}
-
-.insta-container .insta3 {
-    background: url("../images/home/GJP09916.jpg");
+.insta-container .insta img {
+    object-fit: cover;
+    height: 350px;
 }
 
 .insta-container .insta {
@@ -285,8 +278,10 @@ img {
 }
 
 .insta-container .details {
+    position: absolute;
+    bottom: 0;
     background-color: #CF9455;
-    height: 100px;
+    min-height: 100px;
     width: 100%;
     color: white;
 }
