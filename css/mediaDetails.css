@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000002;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 8px solid #CF9455;
+}
+
+.navbar a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 42%;
+}
+
+.navbar-toggler {
+    background-color: #CF9455;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.media {
+    margin-top: -15%;
+    background-image: url("../images/about/13244.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-size: 200%;
+}
+
+.media .btn {
+    min-width: 5rem;
+    border-radius: 0;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+}
+
+.media .btn:hover {
+    background-color: #CF9455;
+}
+
+.media h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.media .left .bread {
+    background-color: #707070;
+}
+
+.bread .breadcrumb {
+    background: none;
+}
+
+.bread .bread-item {
+    color: white;
+}
+
+.bread a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.bread .active {
+    color: rgb(226, 226, 226);
+    font-size: ;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: white;
+}
+
+.media .left,
+.media .right,
+.comments {
+    background-color: #686868;
+    color: white;
+    border-top: 8px solid #CF9455;
+    border-bottom: 8px solid #272727;
+    height: 100%;
+}
+
+.media img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.media .left-pic,
+.media .right-pics {
+    height: 100%;
+}
+
+.media .right-pic1,
+.media .right-pic2 {
+    height: 48%;
+}
+
+.media .right .img {
+    height: 300px;
+}
+
+.media .right h4 {
+    text-transform: uppercase;
+}
+
+.media .right p {
+    font-weight: 300;
+}
+
+.black {
+    color: rgb(15, 15, 15);
+    border-color: rgb(37, 37, 37);
+}
+
+.white {
+    border-color: white;
+}
+
+.btn.active {
+    background-color: #CF9455;
+    color: white;
+}
+
+.events {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.comments .options a {
+    color: white;
+}
+
+.comments .options {
+    color: white;
+    width: 9rem;
+}
+
+.comments .fa-comment,
+.comments .fa-heart {
+    color: #ff7777;
+}
+
+.comments .options a.link-grey,
+.grey {
+    color: rgb(47, 47, 47);
+}
+
+.comments .options a {
+    text-decoration: none;
+}
+
+.comments .count {
+    padding: 1px 5px;
+    background: gainsboro;
+    color: gray;
+    border-radius: 2px;
+}
+
+.comments .dropdown .btn,
+.comments .dropdown .btn:active,
+.comments .dropdown .btn:focus {
+    background: none;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+.login-with small,
+.signup-with small {
+    text-transform: uppercase;
+    color: rgb(47, 47, 47);
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.recommend-box {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+
+.recommend-box .recommend-arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid rgb(149, 149, 149);
+    position: relative;
+    left: 40px;
+    top: 5px;
+    z-index: -1;
+}
+
+.recommend-box .recommend-details {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.recommend:hover {
+    cursor: pointer;
+}
+
+
+/* --------------------- Footer ----------------------- */
+
+footer {
+    margin-top: 10%;
+    bottom: 0;
+    background-color: #686868;
+    color: white;
+}
+
+footer .number i,
+footer .mail i {
+    color: #CF9455;
+}
+
+footer .socials i {
+    background-color: #CF9455;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+footer .popular a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+footer .quick {
+    color: #bdbdbd;
+}
+
+footer .quick a {
+    color: white;
+}
+
+footer .quick h5 {
+    color: white;
+}
+
+footer .popular button {
+    border: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    border-radius: 0;
+    margin: 2px;
+}
+
+footer .popular button:hover {
+    background-color: #CF9455;
+}
+
+footer .popular button:hover a {
+    color: white;
+}
+
+.footer-nav {
+    background-color: #272727;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-bottom {
+    background-color: #686868;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+@media (max-width: 786px) {
+    .hero .container {
+        margin-top: 0;
+    }
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    footer img {
+        width: 50%;
+    }
+}
