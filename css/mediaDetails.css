@@ -77,7 +77,6 @@ body {
 
 .bread .active {
     color: rgb(226, 226, 226);
-    font-size: ;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -87,7 +86,8 @@ body {
 
 .media .left,
 .media .right,
-.comments {
+.comments .left,
+.comments .right {
     background-color: #686868;
     color: white;
     border-top: 8px solid #CF9455;
@@ -127,6 +127,11 @@ body {
     border-color: rgb(37, 37, 37);
 }
 
+.comments .options a.link-grey,
+.grey {
+    color: rgb(47, 47, 47);
+}
+
 .white {
     border-color: white;
 }
@@ -136,14 +141,6 @@ body {
     color: white;
 }
 
-.events {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
 .card {
     background: none;
     border: none;
@@ -151,6 +148,7 @@ body {
 
 .comments .options a {
     color: white;
+    text-decoration: none;
 }
 
 .comments .options {
@@ -163,13 +161,8 @@ body {
     color: #ff7777;
 }
 
-.comments .options a.link-grey,
-.grey {
-    color: rgb(47, 47, 47);
-}
-
-.comments .options a {
-    text-decoration: none;
+.comments img {
+    object-fit: cover;
 }
 
 .comments .count {
@@ -194,10 +187,6 @@ body {
     color: rgb(47, 47, 47);
 }
 
-.bold {
-    font-weight: 500;
-}
-
 .recommend-box {
     position: absolute;
     top: 15%;
@@ -218,6 +207,16 @@ body {
     z-index: -1;
 }
 
+.recommend-box .fa {
+    color: #000002;
+    width: 15px;
+    height: 15px;
+}
+
+.recommend-box .fa:hover {
+    cursor: pointer;
+}
+
 .recommend-box .recommend-details {
     background-color: white;
     color: black;
@@ -227,6 +226,10 @@ body {
 
 .recommend:hover {
     cursor: pointer;
+}
+
+.bold {
+    font-weight: 500;
 }
 
 
@@ -301,11 +304,14 @@ footer .popular button:hover a {
 /* ------------------------------------------------------------------------------ */
 
 @media (max-width: 786px) {
-    .hero .container {
+    .media {
         margin-top: 0;
     }
-    .hero h2 {
+    .media h2 {
         font-size: 1.5rem;
+    }
+    .recommend-box {
+        top: 150px;
     }
     footer img {
         width: 50%;
