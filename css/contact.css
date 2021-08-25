@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000002;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 8px solid #CF9455;
+}
+
+.navbar a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 42%;
+}
+
+.navbar-toggler {
+    background-color: #CF9455;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.orange-hr {
+    border: 1px solid #CF9455;
+    width: 20%;
+}
+
+.form-control {
+    background-color: #000002;
+    border: 1px solid #CF9455;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #000002;
+    border: 1px solid #CF9455;
+    box-shadow: none;
+    color: white;
+}
+
+select.form-control {
+    background-color: black;
+    appearance: none;
+}
+
+select+i.fa {
+    color: #CF9455;
+    float: right;
+    margin-top: -27px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+form .btn {
+    background-color: #CF9455;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+}
+
+.left p {
+    color: white;
+}
+
+.left h2 {
+    color: white;
+}
+
+.left .socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.right img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* --------------------- Footer ----------------------- */
+
+footer {
+    background-color: #686868;
+    color: white;
+}
+
+footer .number i,
+footer .mail i {
+    color: #CF9455;
+}
+
+footer .socials i {
+    background-color: #CF9455;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+footer .popular a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+footer .quick {
+    color: #bdbdbd;
+}
+
+footer .quick a {
+    color: white;
+}
+
+footer .quick h5 {
+    color: white;
+}
+
+footer .popular button {
+    border: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    border-radius: 0;
+    margin: 2px;
+}
+
+footer .popular button:hover {
+    background-color: #CF9455;
+}
+
+footer .popular button:hover a {
+    color: white;
+}
+
+.footer-nav {
+    background-color: #272727;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-bottom {
+    background-color: #686868;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+@media (max-width: 786px) {
+    footer img {
+        width: 50%;
+    }
+}
