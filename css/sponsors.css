@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000002;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 8px solid #CF9455;
+}
+
+.navbar a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 42%;
+}
+
+.navbar-toggler {
+    background-color: #CF9455;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.sponsors {
+    margin-top: -15%;
+}
+
+.sponsor {
+    margin: 20px 0;
+}
+
+.sponsor img {
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+}
+
+.sponsor .item {
+    height: 400px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: white;
+}
+
+.sponsor .details {
+    color: #272727;
+    text-transform: uppercase;
+}
+
+.sponsor .details h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.sponsor .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.sponsor .btn {
+    min-width: 10rem;
+    border-radius: 0;
+    border-color: white;
+    background-color: #272727;
+    text-transform: uppercase;
+}
+
+.sponsor .btn:hover {
+    background-color: #CF9455;
+}
+
+.black {
+    border-color: rgb(37, 37, 37);
+}
+
+
+/* --------------------- Footer ----------------------- */
+
+footer {
+    margin-top: 10%;
+    bottom: 0;
+    background-color: #686868;
+    color: white;
+}
+
+footer .number i,
+footer .mail i {
+    color: #CF9455;
+}
+
+footer .socials i {
+    background-color: #CF9455;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+footer .popular a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+footer .quick {
+    color: #bdbdbd;
+}
+
+footer .quick a {
+    color: white;
+}
+
+footer .quick h5 {
+    color: white;
+}
+
+footer .popular button {
+    border: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    border-radius: 0;
+    margin: 2px;
+}
+
+footer .popular button:hover {
+    background-color: #CF9455;
+}
+
+footer .popular button:hover a {
+    color: white;
+}
+
+.footer-nav {
+    background-color: #272727;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-bottom {
+    background-color: #686868;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+@media (max-width: 786px) {
+    .sponsors {
+        margin-top: 0;
+    }
+    footer img {
+        width: 50%;
+    }
+}
