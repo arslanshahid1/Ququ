@@ -313,11 +313,17 @@ body {
     .sponsors {
         margin-top: 50%;
     }
+    .sponsors img {
+        width: 100%;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
     .sponsors {
         margin-top: 40%;
+    }
+    .sponsors img {
+        width: 100%;
     }
 }
 
